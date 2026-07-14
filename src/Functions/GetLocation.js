@@ -9,6 +9,7 @@ const dataObj={
 latitude:data.latitude,
 longitude:data.longitude
 }
+console.log(dataObj);
 return dataObj;
 };
 
