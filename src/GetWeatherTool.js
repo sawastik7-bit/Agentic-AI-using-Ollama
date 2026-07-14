@@ -13,11 +13,11 @@ const getWeather=async(city)=>{
 
     let weatherData=await weatherRes.json();
 
-    console.log(weatherData);
+    console.log(`Current weather in ${city}: ${weatherData.current.temperature_2m}°C`);
     
 }
 
-getWeather("kharar");
+getWeather("Chandigarh");
 
 
 // obj.weather naam ka array usme obj.main mein current weather and obj.description me moderate rain
