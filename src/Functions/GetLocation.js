@@ -14,7 +14,7 @@ longitude:data.results[0].longitude,
 return dataObj;
 
 };
-getCurrentLatAndLong("kharar");
+
 
 export default getCurrentLatAndLong;
 

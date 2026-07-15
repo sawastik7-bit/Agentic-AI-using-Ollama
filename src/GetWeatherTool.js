@@ -14,6 +14,7 @@ export const getWeather=async(city)=>{
     let weatherData=await weatherRes.json();
 
     
+      return `Current temperature in ${city} is ${weatherData.current.temperature_2m}°C.`;
 }
 
 
