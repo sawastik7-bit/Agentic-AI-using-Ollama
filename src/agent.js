@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import ollama from 'ollama'
 dotenv.config();
 
-const OLLAMA_MODEL=process.env.OLLAMA_MODEL || "ollama3.2";
+const OLLAMA_MODEL=process.env.OLLAMA_MODEL || "llama3.2";
 
 
 const toolbar=[{
@@ -35,5 +35,5 @@ const response =await ollama.chat({
 
 })
 
-console.log(response);
+console.log(response.message.tool_calls[0].function);
  
