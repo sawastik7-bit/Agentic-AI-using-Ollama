@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/sawastik7-bit/Agentic-AI-using-Ollama/issues"
   },
-  "homepage": "https://github.com/sawastik7-bit/Agentic-AI-using-Ollama#readme"
+  "homepage": "https://github.com/sawastik7-bit/Agentic-AI-using-Ollama#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }
