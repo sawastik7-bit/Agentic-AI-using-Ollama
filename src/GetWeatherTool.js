@@ -17,6 +17,7 @@ const getWeather=async(city)=>{
     
 }
 
+getWeather("kharar");
 
 
 // obj.weather naam ka array usme obj.main mein current weather and obj.description me moderate rain
