@@ -3,7 +3,7 @@ import GetLocation from "./Functions/GetLocation.js"
 
 
 
-const getWeather=async(city)=>{
+export const getWeather=async(city)=>{
 
     const {latitude,longitude}=await GetLocation(city);
 
@@ -13,11 +13,10 @@ const getWeather=async(city)=>{
 
     let weatherData=await weatherRes.json();
 
-    console.log(`Current weather in ${city}: ${weatherData.current.temperature_2m}°C`);
     
 }
 
-getWeather("kharar");
+
 
 
 // obj.weather naam ka array usme obj.main mein current weather and obj.description me moderate rain
