@@ -17,7 +17,6 @@ const getWeather=async(city)=>{
     
 }
 
-getWeather("Chandigarh");
 
 
 // obj.weather naam ka array usme obj.main mein current weather and obj.description me moderate rain
